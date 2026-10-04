@@ -84,7 +84,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.1; ma
 .hero-cover { display: flex; justify-content: center; perspective: 1400px; }
 .book3d { position: relative; width: min(340px, 80%); transform: rotateY(-16deg) rotateX(2deg); transform-style: preserve-3d; transition: transform .5s ease; }
 .book3d:hover { transform: rotateY(-6deg); }
-.book3d img, .book3d .cover-fallback { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 2px 6px 6px 2px; box-shadow: 30px 40px 60px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.05); }
+.book3d img, .book3d .cover-fallback { width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 2px 6px 6px 2px; box-shadow: 30px 40px 60px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.05); }
 .book3d::before { /* spine highlight */
   content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 14px; z-index: 2; border-radius: 2px 0 0 2px;
   background: linear-gradient(90deg, rgba(255,255,255,.28), rgba(255,255,255,0) 60%, rgba(0,0,0,.25));
@@ -109,7 +109,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.1; ma
 .book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 40px; }
 .book { display: flex; flex-direction: column; }
 .book-cover { position: relative; transition: transform .25s ease; }
-.book-cover img, .book-cover .cover-fallback { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 2px; box-shadow: 0 18px 40px rgba(14,28,34,.22); }
+.book-cover img, .book-cover .cover-fallback { width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 2px; box-shadow: 0 18px 40px rgba(14,28,34,.22); }
 .book:hover .book-cover { transform: translateY(-6px); }
 .book-body { padding-top: 1.4rem; display: flex; flex-direction: column; flex: 1; }
 .book-body h3 { font-size: 1.85rem; margin-bottom: .3rem; }
