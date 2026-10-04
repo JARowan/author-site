@@ -130,6 +130,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.15; m
 /* ===== Mobile ===== */
 @media (max-width: 760px) {
   .nav-toggle { display: block; }
+  .brand { font-size: 1.25rem; }
   .site-nav {
     display: none; position: absolute; top: 64px; left: 0; right: 0;
     background: var(--paper); border-bottom: 1px solid var(--line); padding: .5rem 16px 1rem;
