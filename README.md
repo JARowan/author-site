@@ -2,8 +2,18 @@
 
 A static site (plain HTML/CSS/JS, no build step) for promoting and selling books. Hosts free on GitHub Pages.
 
+The repo holds **two separate sites** that never link to each other:
+
+| Site | File | Address (GitHub Pages) | Books |
+|---|---|---|---|
+| J.A. Rowan (romance) | `index.html` | `https://jarowan.github.io/author-site/` | The Pikake Lei |
+| Islamic fiction & family books | `islamic/index.html` | `https://jarowan.github.io/author-site/islamic/` | The Olive Tree, Angel, The Immortal Watcher, Amin, Layla, and the Water Cup, Tell Me a Story of YOU |
+
+Keep it that way: no links between the two, and a separate newsletter list for each. The Islamic site shows a plain title until its author name is confirmed (see the comment at the top of `islamic/index.html`). Long term, give the Islamic site its own domain.
+
 ```
-index.html        All page content: featured book, books, newsletter, about, contact
+index.html        Romance site: featured book, books, newsletter, about, contact
+islamic/index.html  Islamic books site (shares the CSS/JS, own color palette)
 css/styles.css    Colors, fonts, layout (theme colors are at the top)
 js/main.js        Mobile menu, book filters, newsletter fallback
 images/covers/    Put cover image files here (recommended over Imgur links)
@@ -13,12 +23,12 @@ images/covers/    Put cover image files here (recommended over Imgur links)
 
 1. Merge this branch into `main`.
 2. On GitHub: **Settings → Pages → Source: Deploy from a branch → `main` / `(root)`**.
-3. The site goes live at `https://jarowan.github.io/author-site/` within a few minutes.
+3. Both sites go live within a few minutes at the addresses in the table above.
 4. Custom domain (recommended, about $12/yr, e.g. `jarowanbooks.com`): buy it at Cloudflare or Namecheap, then enter it under **Settings → Pages → Custom domain** and follow the DNS instructions. Tick **Enforce HTTPS**.
 
 ## 2. Add your buy links
 
-Every buy button in `index.html` starts as `href="#"`. **Buttons left as `#` are hidden automatically**, so nothing broken shows to readers. Replace `#` with the real URL to make a button appear.
+Every buy button in both sites starts as `href="#"`. **Buttons left as `#` are hidden automatically**, so nothing broken shows to readers. Replace `#` with the real URL to make a button appear.
 
 | Button (`data-store`) | What to paste |
 |---|---|
