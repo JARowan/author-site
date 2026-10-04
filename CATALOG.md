@@ -23,21 +23,21 @@ Master list of published titles and their Amazon print links, compiled from KDP 
 | Amin & Layla | [B0HKZ5SRWT](https://www.amazon.com/dp/B0HKZ5SRWT) | | Yes / Select || ✔ Hauhio |
 | The Marvelous Misadventures of Amin & Layla | | [B0FFHJLJQD](https://www.amazon.com/dp/B0FFHJLJQD) | || ✔ Hauhio |
 | Mischief & Manners | | [B0FFB9DTNC](https://www.amazon.com/dp/B0FFB9DTNC) | || ✔ Hauhio |
-| Where the Waves Break | | [B0FFZ98V8J](https://www.amazon.com/dp/B0FFZ98V8J) | | |
-| The Ghost of Ka'ena | | [B0FHDVT6N4](https://www.amazon.com/dp/B0FHDVT6N4) | | |
+| Where the Waves Break | | [B0FFZ98V8J](https://www.amazon.com/dp/B0FFZ98V8J) | || ✔ Rowan |
+| The Ghost of Ka'ena | | [B0FHDVT6N4](https://www.amazon.com/dp/B0FHDVT6N4) | || ✔ Rowan |
 | Still Water | [B0GSW6DTRL](https://www.amazon.com/dp/B0GSW6DTRL) | | Yes | ✔ Rowan |
-| Still Choosing You | [B0GRLYL57D](https://www.amazon.com/dp/B0GRLYL57D) | | | |
-| The Governor's Balcony *(KDP listing spells it "Governer's")* | [B0FF21C2C1](https://www.amazon.com/dp/B0FF21C2C1) | [B0FDWTK3FS](https://www.amazon.com/dp/B0FDWTK3FS) | | |
-| The Sovereign Signal | [B0HKFVQW3F](https://www.amazon.com/dp/B0HKFVQW3F) | | Yes / Select | |
+| Still Choosing You | [B0GRLYL57D](https://www.amazon.com/dp/B0GRLYL57D) | | || ✔ Rowan |
+| The Governor's Balcony *(KDP listing spells it "Governer's")* | [B0FF21C2C1](https://www.amazon.com/dp/B0FF21C2C1) | [B0FDWTK3FS](https://www.amazon.com/dp/B0FDWTK3FS) | || ✔ Rowan |
+| The Sovereign Signal | [B0HKFVQW3F](https://www.amazon.com/dp/B0HKFVQW3F) | | Yes / Select || ✔ Hauhio |
 | The Occupation Papers | [B0HKF6CHR1](https://www.amazon.com/dp/B0HKF6CHR1) | | Yes || ✔ Hauhio |
 | Mission Not a Baby | [B0HKFDL68R](https://www.amazon.com/dp/B0HKFDL68R) | | Yes || ✔ Hauhio |
 | Logged Off | [B0HKCS5QTD](https://www.amazon.com/dp/B0HKCS5QTD) | | Yes / Select || ✔ Hauhio |
-| The Nezek Ratio | [B0HKCWMNTK](https://www.amazon.com/dp/B0HKCWMNTK) | | Yes / Select | |
-| The Cadastre of the Outlaws | [B0HKDB8GJ2](https://www.amazon.com/dp/B0HKDB8GJ2) | | Yes | |
-| The Silenced Corridor | [B0HK2ZF7VF](https://www.amazon.com/dp/B0HK2ZF7VF) | | Yes / Select | |
-| The Redacted Mandate | [B0HK3BP6BC](https://www.amazon.com/dp/B0HK3BP6BC) | | Yes / Select | |
-| The Leverage of Silence | [B0HK3CJ5NP](https://www.amazon.com/dp/B0HK3CJ5NP) | | Yes / Select | |
-| The Scheveningen Dockets | [B0HK4S3DVP](https://www.amazon.com/dp/B0HK4S3DVP) | | Yes / Select | |
+| The Nezek Ratio | [B0HKCWMNTK](https://www.amazon.com/dp/B0HKCWMNTK) | | Yes / Select || ✔ Hauhio |
+| The Cadastre of the Outlaws | [B0HKDB8GJ2](https://www.amazon.com/dp/B0HKDB8GJ2) | | Yes || ✔ Hauhio |
+| The Silenced Corridor | [B0HK2ZF7VF](https://www.amazon.com/dp/B0HK2ZF7VF) | | Yes / Select || ✔ Hauhio |
+| The Redacted Mandate | [B0HK3BP6BC](https://www.amazon.com/dp/B0HK3BP6BC) | | Yes / Select || ✔ Hauhio |
+| The Leverage of Silence | [B0HK3CJ5NP](https://www.amazon.com/dp/B0HK3CJ5NP) | | Yes / Select || ✔ Hauhio |
+| The Scheveningen Dockets | [B0HK4S3DVP](https://www.amazon.com/dp/B0HK4S3DVP) | | Yes / Select || ✔ Hauhio |
 | The Field Guide to Optimal Operational Efficiency | [B0FDVFPSYL](https://www.amazon.com/dp/B0FDVFPSYL) | | | |
 
 ## Pen names confirmed from source files
@@ -46,7 +46,11 @@ Master list of published titles and their Amazon print links, compiled from KDP 
 - **J.A. Rowan:** The Pikake Lei (Amazon author page).
 - **Harry J. A. Hauhio:** Still Water (cover, spine, and About the Author). This is a third byline. It's listed on the J.A. Rowan site.
 - **Check this:** the Canva design for *Amin and Layla's Quranic Quest: The Waiting Game* reads "Written by: J.A. Rowan".
-- **Still unknown:** Still Choosing You, Where the Waves Break, The Ghost of Ka'ena, The Governor's Balcony, The Sovereign Signal, The Redacted Mandate, The Leverage of Silence, The Silenced Corridor, The Scheveningen Dockets, The Nezek Ratio, The Cadastre of the Outlaws, The Field Guide.
+- **J.A. Rowan (from the Canva covers):** Where the Waves Break, The Ghosts of Kaʻena, The Governor's Balcony.
+- **Harry J. A. Hauhio:** Still Choosing You (Canva cover). Listed on the Rowan site, like Still Water.
+- **J.A. Hauhio:** The Sovereign Signal (Canva cover, "A Procedural Thriller").
+- **Left off both sites:** The Field Guide (a policing satire credited to a fictional institute).
+- **J.A. Hauhio (confirmed by the author):** The Redacted Mandate, The Leverage of Silence, The Silenced Corridor, The Scheveningen Dockets, The Nezek Ratio, The Cadastre of the Outlaws.
 
 ## Where the cover files are
 
