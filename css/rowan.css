@@ -102,7 +102,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.1; ma
 .section-dark { background: linear-gradient(160deg, var(--night-2), var(--night)); color: var(--cream); overflow: hidden; }
 .section-dark .eyebrow { color: var(--gold); }
 .section-title { font-size: clamp(2.2rem, 4.6vw, 3.4rem); }
-.section-intro { color: var(--ink-soft); max-width: 600px; margin: 0 0 3rem; font-size: 1.1rem; }
+.section-intro { color: var(--ink-soft); max-width: 600px; margin: 0 0 1.5rem; font-size: 1.1rem; }
+.all-books { margin: 0 0 3rem; }
 
 /* ===== Books ===== */
 .book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 40px; }
