@@ -2,60 +2,211 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>J.A. Rowan | The Immortal Quill</title>
-  <style>
-    body { font-family: Georgia, serif; margin: 0; padding: 0; line-height: 1.6; background: #f5f5f5; }
-    header, footer { background: #1a1a1a; color: #fff; padding: 1rem 2rem; text-align: center; }
-    nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-    .container { max-width: 1000px; margin: auto; padding: 2rem; background: white; }
-    .book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 2rem; }
-    .book { background: #fff; padding: 1rem; border: 1px solid #ddd; border-radius: 5px; text-align: center; }
-    .book img { width: 100%; height: auto; }
-    .book h3 { margin-top: 0.5rem; font-size: 1.1rem; }
-    .about, .contact { margin-top: 2rem; }
-    .author-bio { white-space: pre-line; }
-  </style>
+  <meta name="description" content="Books by J.A. Rowan — contemporary romance, literary fiction, and children's books grounded in emotional truth, Hawaiʻi, and the stories families carry." />
+
+  <!-- Social sharing previews (Facebook, X, iMessage, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="J.A. Rowan | The Immortal Quill" />
+  <meta property="og:description" content="Contemporary romance, literary fiction, and children's books by J.A. Rowan." />
+  <meta property="og:image" content="https://i.imgur.com/EbnNAgv.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✒️</text></svg>" />
 </head>
 <body>
-  <header>
-    <h1>J.A. Rowan | The Immortal Quill</h1>
-    <nav>
-      <a href="#books">Books</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand">J.A. Rowan</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#books">Books</a>
+        <a href="#about">About</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <div class="container">
-    <section id="books">
-      <h2>Books by J.A. Rowan / J.A. Hauhio</h2>
-      <div class="book-grid">
-        <div class="book"><img src="https://i.imgur.com/YKQDMRK.png" alt="The Olive Tree"><h3>The Olive Tree</h3><p>A Gaza story of war, witness, and the hope that remains.</p></div>
-        <div class="book"><img src="https://i.imgur.com/EbnNAgv.png" alt="The Pikake Lei"><h3>The Pikake Lei</h3><p>A love story woven with the soul of Hawaiʻi.</p></div>
-        <div class="book"><img src="https://i.imgur.com/GlwKwB4.png" alt="The Immortal Watcher"><h3>The Immortal Watcher</h3><p>An ancient angel's defiance in a war for memory.</p></div>
-        <div class="book"><img src="https://i.imgur.com/OaZ8d5A.png" alt="Angel"><h3>Angel</h3><p>Eyewitness to a forgotten genocide in Gaza.</p></div>
-        <div class="book"><img src="https://i.imgur.com/fB3rMBM.png" alt="Tell Me A Story of YOU"><h3>Tell Me a Story of YOU</h3><p>A guided journal for families and generations.</p></div>
-        <div class="book"><img src="https://i.imgur.com/ClgyvnN.png" alt="Amin and Layla"><h3>Amin, Layla, and the Water Cup</h3><p>A Muslim children’s story about sharing and Sunnah.</p></div>
+  <main id="top">
+    <!-- ============ FEATURED BOOK ============
+         Swap this block whenever you launch or push a title. -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-cover">
+          <img src="https://i.imgur.com/EbnNAgv.png" alt="Cover of The Pikake Lei by J.A. Rowan" width="400" height="600" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Featured Novel</p>
+          <h1>The Pikake Lei</h1>
+          <p class="tagline">A love story woven with the soul of Hawaiʻi.</p>
+          <!-- Paste your back-cover blurb into the paragraph below. It stays hidden while empty. -->
+          <p class="hero-blurb"></p>
+          <div class="buy-row">
+            <!-- Replace "#" with your real links. Buttons left as "#" stay hidden automatically. -->
+            <a class="btn btn-primary" href="#" data-store="amazon">Buy on Amazon</a>
+            <a class="btn btn-secondary" href="#" data-store="direct">Buy Direct (Ebook)</a>
+            <a class="btn btn-secondary" href="#" data-store="kindle-unlimited">Read in Kindle Unlimited</a>
+          </div>
+          <a class="text-link" href="#books">See all books →</a>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="about">
-      <h2>About J.A. Rowan</h2>
-      <p class="author-bio">
-        J.A. Rowan writes from the edge of memory and salt air. A native son of Hawaiʻi now rooted in the high plains, he carries stories of land, love, and legacy wherever he goes. His work walks the tension between the sacred and the seductive, always returning to the question: what does it mean to belong — to a person, a place, a self?
-      </p>
+    <!-- ============ BOOKS ============ -->
+    <section id="books" class="section">
+      <div class="wrap">
+        <h2 class="section-title">Books</h2>
+        <p class="section-intro">Romance, literary fiction, and books for families. Every story starts with real people and what they're willing to risk.</p>
+
+        <div class="filters" role="tablist" aria-label="Filter books">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" data-filter="novels" role="tab" aria-selected="false">Novels</button>
+          <button class="filter" data-filter="family" role="tab" aria-selected="false">Children &amp; Family</button>
+        </div>
+
+        <div class="book-grid">
+          <!-- To add a book: copy one <article> block, change the text, cover, and links.
+               data-category must be "novels" or "family". -->
+
+          <article class="book" data-category="novels">
+            <img src="https://i.imgur.com/EbnNAgv.png" alt="Cover of The Pikake Lei" loading="lazy" width="400" height="600" />
+            <div class="book-body">
+              <p class="genre">Contemporary Romance</p>
+              <h3>The Pikake Lei</h3>
+              <p>A love story woven with the soul of Hawaiʻi.</p>
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" data-category="novels">
+            <img src="https://i.imgur.com/YKQDMRK.png" alt="Cover of The Olive Tree" loading="lazy" width="400" height="600" />
+            <div class="book-body">
+              <p class="genre">Literary Fiction</p>
+              <h3>The Olive Tree</h3>
+              <p>A Gaza story of war, witness, and the hope that remains.</p>
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" data-category="novels">
+            <img src="https://i.imgur.com/OaZ8d5A.png" alt="Cover of Angel" loading="lazy" width="400" height="600" />
+            <div class="book-body">
+              <p class="genre">Literary Fiction</p>
+              <h3>Angel</h3>
+              <p>Eyewitness to a forgotten genocide in Gaza.</p>
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" data-category="novels">
+            <img src="https://i.imgur.com/GlwKwB4.png" alt="Cover of The Immortal Watcher" loading="lazy" width="400" height="600" />
+            <div class="book-body">
+              <p class="genre">Speculative Fiction</p>
+              <h3>The Immortal Watcher</h3>
+              <p>An ancient angel's defiance in a war for memory.</p>
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" data-category="family">
+            <img src="https://i.imgur.com/ClgyvnN.png" alt="Cover of Amin, Layla, and the Water Cup" loading="lazy" width="400" height="600" />
+            <div class="book-body">
+              <p class="genre">Children's Picture Book</p>
+              <h3>Amin, Layla, and the Water Cup</h3>
+              <p>A Muslim children's story about sharing and Sunnah.</p>
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" data-category="family">
+            <img src="https://i.imgur.com/fB3rMBM.png" alt="Cover of Tell Me a Story of YOU" loading="lazy" width="400" height="600" />
+            <div class="book-body">
+              <p class="genre">Guided Journal</p>
+              <h3>Tell Me a Story of YOU</h3>
+              <p>A guided journal for families and generations.</p>
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:TheImmortalQuill@gmail.com">TheImmortalQuill@gmail.com</a></p>
-      <p>YouTube: <a href="https://www.youtube.com/@TheImmortalQuill" target="_blank">@TheImmortalQuill</a></p>
+    <!-- ============ NEWSLETTER ============
+         This is the most valuable part of the site: an email list you own.
+         Paste your MailerLite / Kit (ConvertKit) form URL into the form's action attribute. -->
+    <section id="newsletter" class="section section-dark">
+      <div class="wrap narrow center">
+        <h2 class="section-title">Read the First Chapter Free</h2>
+        <p>Join the reader list for a free opening chapter, new release announcements, and launch-week pricing. No spam. Unsubscribe anytime.</p>
+        <form class="signup" action="" method="post" target="_blank" data-fallback-email="TheImmortalQuill@gmail.com">
+          <label class="visually-hidden" for="signup-name">First name</label>
+          <input id="signup-name" type="text" name="fields[name]" placeholder="First name" autocomplete="given-name" />
+          <label class="visually-hidden" for="signup-email">Email address</label>
+          <input id="signup-email" type="email" name="fields[email]" placeholder="Email address" autocomplete="email" required />
+          <button class="btn btn-primary" type="submit">Send Me the Chapter</button>
+        </form>
+        <p class="form-note" hidden></p>
+      </div>
     </section>
-  </div>
 
-  <footer>
-    <p>&copy; 2025 J.A. Rowan | All Rights Reserved</p>
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="wrap about-inner">
+        <div class="about-copy">
+          <h2 class="section-title">About J.A. Rowan</h2>
+          <p>
+            J.A. Rowan writes from the edge of memory and salt air. A native son of Hawaiʻi now rooted in the high plains, he carries stories of land, love, and legacy wherever he goes. His work walks the tension between the sacred and the seductive, always returning to the question: what does it mean to belong — to a person, a place, a self?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section section-alt">
+      <div class="wrap narrow center">
+        <h2 class="section-title">Contact</h2>
+        <p>For reader mail, book clubs, interviews, and rights inquiries:</p>
+        <p class="contact-links">
+          <a href="mailto:TheImmortalQuill@gmail.com">TheImmortalQuill@gmail.com</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.youtube.com/@TheImmortalQuill" target="_blank" rel="noopener">YouTube @TheImmortalQuill</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> J.A. Rowan · The Immortal Quill · All rights reserved.</p>
+      <!-- If you use Amazon Associates affiliate links, uncomment the required disclosure:
+      <p class="small">As an Amazon Associate I earn from qualifying purchases.</p> -->
+    </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
