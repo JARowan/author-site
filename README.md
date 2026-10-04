@@ -7,9 +7,9 @@ The repo holds **two separate sites** that never link to each other:
 | Site | File | Address (GitHub Pages) | Books |
 |---|---|---|---|
 | J.A. Rowan (romance) | `index.html` | `https://jarowan.github.io/author-site/` | The Pikake Lei |
-| Islamic fiction & family books | `islamic/index.html` | `https://jarowan.github.io/author-site/islamic/` | The Olive Tree, Angel, The Immortal Watcher, Amin, Layla, and the Water Cup, Tell Me a Story of YOU |
+| J.A. Hauhio (Islamic fiction & family books) | `islamic/index.html` | `https://jarowan.github.io/author-site/islamic/` | The Olive Tree, Angel, The Immortal Watcher, Amin, Layla, and the Water Cup, Tell Me a Story of YOU |
 
-Keep it that way: no links between the two, and a separate newsletter list for each. The Islamic site shows a plain title until its author name is confirmed (see the comment at the top of `islamic/index.html`). Long term, give the Islamic site its own domain.
+Keep it that way: no links between the two, and a separate newsletter list for each. Long term, give the Islamic site its own domain.
 
 ```
 index.html        Romance site: featured book, books, newsletter, about, contact
