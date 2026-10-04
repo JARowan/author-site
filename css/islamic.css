@@ -77,7 +77,12 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.15; m
 /* Arch (mihrab) frame used around covers */
 .arch { position: relative; padding: 14px; border-radius: 200px 200px 6px 6px; background: var(--ivory); box-shadow: 0 24px 50px rgba(0,0,0,.35); }
 .arch::after { content: ""; position: absolute; inset: 6px; border: 1px solid var(--gold); border-radius: 194px 194px 3px 3px; pointer-events: none; }
-.arch img, .arch .cover-fallback { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 186px 186px 2px 2px; }
+.arch img, .arch .cover-fallback { width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 186px 186px 2px 2px; }
+.arch img.square { aspect-ratio: 1 / 1; }
+/* Square picture-book covers get a rounded frame so the arch doesn't clip their titles */
+.arch:has(img.square) { border-radius: 18px; }
+.arch:has(img.square)::after { border-radius: 13px; }
+.arch img.square { border-radius: 10px; }
 
 /* ===== Pattern divider ===== */
 .pattern-band { height: 34px; background-color: var(--green); background-image: var(--pattern); background-size: 34px; background-position: center; opacity: 1; position: relative; }

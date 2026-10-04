@@ -29,9 +29,9 @@ Master list of published titles and their Amazon print links, compiled from KDP 
 | Still Choosing You | [B0GRLYL57D](https://www.amazon.com/dp/B0GRLYL57D) | | | |
 | The Governor's Balcony *(KDP listing spells it "Governer's")* | [B0FF21C2C1](https://www.amazon.com/dp/B0FF21C2C1) | [B0FDWTK3FS](https://www.amazon.com/dp/B0FDWTK3FS) | | |
 | The Sovereign Signal | [B0HKFVQW3F](https://www.amazon.com/dp/B0HKFVQW3F) | | Yes / Select | |
-| The Occupation Papers | [B0HKF6CHR1](https://www.amazon.com/dp/B0HKF6CHR1) | | Yes | |
-| Mission Not a Baby | [B0HKFDL68R](https://www.amazon.com/dp/B0HKFDL68R) | | Yes | |
-| Logged Off | [B0HKCS5QTD](https://www.amazon.com/dp/B0HKCS5QTD) | | Yes / Select | |
+| The Occupation Papers | [B0HKF6CHR1](https://www.amazon.com/dp/B0HKF6CHR1) | | Yes || ✔ Hauhio |
+| Mission Not a Baby | [B0HKFDL68R](https://www.amazon.com/dp/B0HKFDL68R) | | Yes || ✔ Hauhio |
+| Logged Off | [B0HKCS5QTD](https://www.amazon.com/dp/B0HKCS5QTD) | | Yes / Select || ✔ Hauhio |
 | The Nezek Ratio | [B0HKCWMNTK](https://www.amazon.com/dp/B0HKCWMNTK) | | Yes / Select | |
 | The Cadastre of the Outlaws | [B0HKDB8GJ2](https://www.amazon.com/dp/B0HKDB8GJ2) | | Yes | |
 | The Silenced Corridor | [B0HK2ZF7VF](https://www.amazon.com/dp/B0HK2ZF7VF) | | Yes / Select | |
@@ -39,6 +39,20 @@ Master list of published titles and their Amazon print links, compiled from KDP 
 | The Leverage of Silence | [B0HK3CJ5NP](https://www.amazon.com/dp/B0HK3CJ5NP) | | Yes / Select | |
 | The Scheveningen Dockets | [B0HK4S3DVP](https://www.amazon.com/dp/B0HK4S3DVP) | | Yes / Select | |
 | The Field Guide to Optimal Operational Efficiency | [B0FDVFPSYL](https://www.amazon.com/dp/B0FDVFPSYL) | | | |
+
+## Pen names confirmed from source files
+
+- **J.A. Hauhio:** The Occupation Papers (title page and copyright page; "a work of political fiction"), Logged Off (Mischief & Manners Book 2), Mission Not a Baby (Mischief & Manners Book 3), and Amin, Layla, and the Water Cup (cover byline).
+- **J.A. Rowan:** The Pikake Lei (Amazon author page).
+- **Harry J. A. Hauhio:** Still Water (cover, spine, and About the Author). This is a third byline. Decide which site it belongs on.
+- **Check this:** the Canva design for *Amin and Layla's Quranic Quest: The Waiting Game* reads "Written by: J.A. Rowan".
+- **Still unknown:** Still Choosing You, Where the Waves Break, The Ghost of Ka'ena, The Governor's Balcony, The Sovereign Signal, The Redacted Mandate, The Leverage of Silence, The Silenced Corridor, The Scheveningen Dockets, The Nezek Ratio, The Cadastre of the Outlaws, The Field Guide.
+
+## Where the cover files are
+
+- **Canva:** most front and wraparound covers, including Pikake Lei, Angel, Olive Tree, Immortal Watcher, Still Water, Still Choosing You, Prophetic Apothecary, Occupation Papers, Sovereign Signal, Mischief & Manners, Amin & Layla, and Amin & Layla Seven Little Lessons.
+- **Google Drive:** Still Water wraps and Amin, Layla, and the Water Cup wrap (now on the site).
+- **OneDrive (not reachable from here):** Ghost of Ka'ena, Immortal Watcher, and Olive Tree cover images.
 
 ## Housekeeping
 
