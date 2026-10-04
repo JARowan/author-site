@@ -56,3 +56,38 @@ form.addEventListener("submit", (e) => {
   note.hidden = false;
   note.innerHTML = `Thanks! If your email app didn't open, write to <a href="mailto:${email}">${email}</a>.`;
 });
+
+// Header turns solid once the page scrolls past the top
+const header = document.querySelector(".site-header");
+const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 40);
+window.addEventListener("scroll", onScroll, { passive: true });
+onScroll();
+
+// If a cover image fails to load, show a designed typographic cover instead
+function coverFallback(img) {
+  const box = document.createElement("div");
+  box.className = "cover-fallback";
+  box.setAttribute("role", "img");
+  box.setAttribute("aria-label", img.alt);
+  box.innerHTML = '<span class="cf-title"></span><span class="cf-rule"></span><span class="cf-author"></span>';
+  box.querySelector(".cf-title").textContent = img.dataset.title || img.alt;
+  box.querySelector(".cf-author").textContent = img.dataset.author || "";
+  img.replaceWith(box);
+}
+document.querySelectorAll("img[data-title]").forEach((img) => {
+  if (img.complete && img.naturalWidth === 0) coverFallback(img);
+  else img.addEventListener("error", () => coverFallback(img));
+});
+
+// Gentle fade-in of sections as they scroll into view
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll(".section .wrap, .quote-band .wrap").forEach((el) => {
+    el.classList.add("reveal");
+    io.observe(el);
+  });
+}

@@ -13,9 +13,10 @@ Keep it that way: no links between the two, and a separate newsletter list for e
 
 ```
 index.html        Romance site: featured book, books, newsletter, about, contact
-islamic/index.html  Islamic books site (shares the CSS/JS, own color palette)
-css/styles.css    Colors, fonts, layout (theme colors are at the top)
-js/main.js        Mobile menu, book filters, newsletter fallback
+islamic/index.html  Islamic books site
+css/rowan.css     Romance site design (night ocean, gold, pikake motif; colors at the top)
+css/islamic.css   Islamic site design (green, ivory, gold, geometric pattern; colors at the top)
+js/main.js        Shared: mobile menu, newsletter fallback, cover fallback, scroll effects
 images/covers/    Put cover image files here (recommended over Imgur links)
 ```
 
@@ -60,7 +61,7 @@ Note: books enrolled in **KDP Select / Kindle Unlimited** must be exclusive to A
 
 ## 5. Covers
 
-Covers currently load from Imgur, which can be slow or blocked. Better: save each cover as a JPG (about 600×900 px) into `images/covers/`, then change the `src`, e.g. `src="images/covers/the-pikake-lei.jpg"`.
+Covers currently load from Imgur, which can be slow or blocked. If a cover fails to load, the site shows a designed title card in its place instead of a broken image. Better: save each cover as a JPG (about 600×900 px) into `images/covers/`, then change the `src`, e.g. `src="images/covers/the-pikake-lei.jpg"`.
 
 ## 6. Changing the featured book
 
