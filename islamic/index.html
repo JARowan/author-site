@@ -3,46 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- AUTHOR NAME: once confirmed, replace "Islamic Fiction & Family Books" in the
-       <title>, the og:title, and the header brand below with the author name. -->
-  <title>Islamic Fiction &amp; Family Books</title>
-  <meta name="description" content="Fiction of faith and witness from Gaza, and Islamic books for children and families." />
+  <title>J.A. Hauhio | Books of Faith, Witness &amp; Family</title>
+  <meta name="description" content="Books by J.A. Hauhio: fiction of faith and witness from Gaza, and Islamic books for children and families." />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Islamic Fiction &amp; Family Books" />
+  <meta property="og:title" content="J.A. Hauhio | Books of Faith, Witness &amp; Family" />
   <meta property="og:description" content="Fiction of faith and witness from Gaza, and Islamic books for children and families." />
   <meta property="og:image" content="https://i.imgur.com/YKQDMRK.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/styles.css" />
-  <style>
-    /* Calmer olive-and-gold palette for this site */
-    :root {
-      --paper: #f7f5ee;
-      --paper-alt: #ecebe0;
-      --line: #dad8c8;
-      --accent: #4f6b3a;        /* olive green */
-      --accent-hover: #3d5429;
-      --dark: #24301f;
-      --dark-text: #f2efe4;
-    }
-    .intro { padding: 64px 0 24px; background: linear-gradient(180deg, var(--paper-alt), var(--paper)); }
-    .intro h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem); }
-    .intro p { color: var(--ink-soft); max-width: 640px; font-size: 1.15rem; }
-    .form-note a { color: #d6c98f; }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Jost:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/islamic.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>" />
 </head>
 <body>
+  <!-- Eight-point star ornament -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="star8" viewBox="0 0 100 100">
+      <g fill="none" stroke="currentColor" stroke-width="2.5">
+        <rect x="22" y="22" width="56" height="56"/>
+        <rect x="22" y="22" width="56" height="56" transform="rotate(45 50 50)"/>
+        <circle cx="50" cy="50" r="12"/>
+      </g>
+    </symbol>
+  </svg>
+
   <header class="site-header">
     <div class="wrap header-inner">
-      <a href="#top" class="brand">Islamic Fiction &amp; Family Books</a>
+      <a href="#top" class="brand">J.A. Hauhio</a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">☰</button>
       <nav id="site-nav" class="site-nav">
-        <a href="#books">Books</a>
+        <a href="#novels">Novels</a>
+        <a href="#sunnah">Faith &amp; Sunnah</a>
+        <a href="#family">Children &amp; Family</a>
         <a href="#newsletter">Newsletter</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -50,88 +45,209 @@
   </header>
 
   <main id="top">
-    <section class="intro">
+    <section class="hero">
       <div class="wrap">
-        <p class="eyebrow">Faith · Witness · Family</p>
+        <svg class="ornament" aria-hidden="true"><use href="#star8"/></svg>
+        <p class="eyebrow">J.A. Hauhio · Faith · Witness · Family</p>
         <h1>Stories of Faith and Witness</h1>
-        <p>Novels that carry the memory of Gaza, and books that help families pass down faith, character, and their own stories.</p>
+        <p class="hero-sub">Novels that carry the memory of Gaza, books on living the Sunnah, and stories that help families pass down faith and good character.</p>
+        <div class="hero-nav">
+          <a class="btn btn-gold btn-always" href="#novels">The Novels</a>
+          <a class="btn btn-ghost btn-always" href="#sunnah">Faith &amp; Sunnah</a>
+          <a class="btn btn-ghost btn-always" href="#family">For Children &amp; Families</a>
+        </div>
+        <p class="hero-amazon"><a href="https://www.amazon.com/-/e/B0FGW54RT6" target="_blank" rel="noopener">See all J.A. Hauhio books on Amazon →</a></p>
+        <div class="showcase" aria-hidden="true">
+          <div class="arch"><img src="https://i.imgur.com/YKQDMRK.png" alt="" width="400" height="600" data-title="The Olive Tree" data-author="J.A. Hauhio" /></div>
+          <div class="arch"><img src="https://i.imgur.com/ClgyvnN.png" alt="" width="400" height="600" data-title="Amin, Layla, and the Water Cup" data-author="J.A. Hauhio" /></div>
+          <div class="arch"><img src="https://i.imgur.com/OaZ8d5A.png" alt="" width="400" height="600" data-title="Angel" data-author="J.A. Hauhio" /></div>
+        </div>
       </div>
     </section>
 
-    <!-- ============ BOOKS ============ -->
-    <section id="books" class="section">
+    <!-- ============ NOVELS ============
+         To add a book: copy one <article> block, change the text, cover, and links.
+         Buy buttons left as "#" stay hidden until you paste in a real link. -->
+    <section id="novels" class="section">
       <div class="wrap">
-        <div class="filters" role="tablist" aria-label="Filter books">
-          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
-          <button class="filter" data-filter="novels" role="tab" aria-selected="false">Novels</button>
-          <button class="filter" data-filter="family" role="tab" aria-selected="false">Children &amp; Family</button>
+        <div class="section-head">
+          <svg class="ornament" aria-hidden="true"><use href="#star8"/></svg>
+          <p class="eyebrow">The Novels</p>
+          <h2 class="section-title">Fiction of Faith and Witness</h2>
+          <p class="section-intro">Stories of war, memory, and the hope that remains.</p>
         </div>
-
         <div class="book-grid">
-          <!-- To add a book: copy one <article> block, change the text, cover, and links.
-               data-category must be "novels" or "family".
-               Buy buttons left as "#" stay hidden until you paste in a real link. -->
-
-          <article class="book" data-category="novels">
-            <img src="https://i.imgur.com/YKQDMRK.png" alt="Cover of The Olive Tree" loading="lazy" width="400" height="600" />
+          <article class="book">
+            <div class="arch"><img src="https://i.imgur.com/YKQDMRK.png" alt="Cover of The Olive Tree" loading="lazy" width="400" height="600" data-title="The Olive Tree" data-author="J.A. Hauhio" /></div>
             <div class="book-body">
               <p class="genre">Literary Fiction</p>
               <h3>The Olive Tree</h3>
               <p>A Gaza story of war, witness, and the hope that remains.</p>
               <div class="buy-row">
-                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0FD7HMW91" data-store="amazon">Paperback</a>
+                <a class="btn btn-secondary btn-sm" href="https://www.amazon.com/dp/B0FDB4SH2R" data-store="amazon">Hardcover</a>
                 <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
               </div>
             </div>
           </article>
 
-          <article class="book" data-category="novels">
-            <img src="https://i.imgur.com/OaZ8d5A.png" alt="Cover of Angel" loading="lazy" width="400" height="600" />
+          <article class="book">
+            <div class="arch"><img src="https://i.imgur.com/OaZ8d5A.png" alt="Cover of Angel" loading="lazy" width="400" height="600" data-title="Angel" data-author="J.A. Hauhio" /></div>
             <div class="book-body">
               <p class="genre">Literary Fiction</p>
               <h3>Angel</h3>
               <p>Eyewitness to a forgotten genocide in Gaza.</p>
               <div class="buy-row">
-                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0F92529X7" data-store="amazon">Paperback</a>
+                <a class="btn btn-secondary btn-sm" href="https://www.amazon.com/dp/B0F92G9VBX" data-store="amazon">Hardcover</a>
                 <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
               </div>
             </div>
           </article>
 
-          <article class="book" data-category="novels">
-            <img src="https://i.imgur.com/GlwKwB4.png" alt="Cover of The Immortal Watcher" loading="lazy" width="400" height="600" />
+          <article class="book">
+            <div class="arch"><img src="https://i.imgur.com/GlwKwB4.png" alt="Cover of The Immortal Watcher" loading="lazy" width="400" height="600" data-title="The Immortal Watcher" data-author="J.A. Hauhio" /></div>
             <div class="book-body">
               <p class="genre">Speculative Fiction</p>
               <h3>The Immortal Watcher</h3>
               <p>An ancient angel's defiance in a war for memory.</p>
               <div class="buy-row">
-                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0FD7YVXDT" data-store="amazon">Paperback</a>
+                <a class="btn btn-secondary btn-sm" href="https://www.amazon.com/dp/B0FBL91SBG" data-store="amazon">Hardcover</a>
                 <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
               </div>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
 
-          <article class="book" data-category="family">
-            <img src="https://i.imgur.com/ClgyvnN.png" alt="Cover of Amin, Layla, and the Water Cup" loading="lazy" width="400" height="600" />
+    <div class="pattern-band" aria-hidden="true"></div>
+
+    <!-- ============ FAITH & SUNNAH ============
+         Cover images: save as images/covers/<name>.jpg using the file name in each src below.
+         Until then, a designed title card shows in place of the cover. -->
+    <section id="sunnah" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <svg class="ornament" aria-hidden="true"><use href="#star8"/></svg>
+          <p class="eyebrow">Faith &amp; Sunnah</p>
+          <h2 class="section-title">Living the Prophetic Way</h2>
+          <p class="section-intro">Books that bring the guidance of the Sunnah into everyday life.</p>
+        </div>
+        <div class="book-grid">
+          <article class="book">
+            <div class="arch"><img src="../images/covers/healing-in-the-sunnah.jpg" alt="Cover of Healing in the Sunnah" loading="lazy" width="400" height="600" data-title="Healing in the Sunnah" data-author="J.A. Hauhio" /></div>
+            <div class="book-body">
+              <p class="genre">Faith &amp; Sunnah</p>
+              <h3>Healing in the Sunnah</h3>
+              <!-- Add a one-line description here: <p>...</p> -->
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0HLPTDR39" data-store="amazon">Paperback</a>
+                <a class="btn btn-secondary btn-sm" href="https://www.amazon.com/dp/B0HLPWQSQ2" data-store="amazon">Hardcover</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book">
+            <div class="arch"><img src="../images/covers/at-the-prophets-table.jpg" alt="Cover of At the Prophet's Table" loading="lazy" width="400" height="600" data-title="At the Prophet's Table" data-author="J.A. Hauhio" /></div>
+            <div class="book-body">
+              <p class="genre">Faith &amp; Sunnah</p>
+              <h3>At the Prophet's Table</h3>
+              <!-- Add a one-line description here: <p>...</p> -->
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0HLPXQXQ5" data-store="amazon">Paperback</a>
+                <a class="btn btn-secondary btn-sm" href="https://www.amazon.com/dp/B0HLPNHK1H" data-store="amazon">Hardcover</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book">
+            <div class="arch"><img src="../images/covers/the-prophetic-apothecary.jpg" alt="Cover of The Prophetic Apothecary" loading="lazy" width="400" height="600" data-title="The Prophetic Apothecary" data-author="J.A. Hauhio" /></div>
+            <div class="book-body">
+              <p class="genre">Faith &amp; Sunnah</p>
+              <h3>The Prophetic Apothecary</h3>
+              <!-- Add a one-line description here: <p>...</p> -->
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0HKWT6285" data-store="amazon">Paperback</a>
+                <a class="btn btn-secondary btn-sm" href="https://www.amazon.com/dp/B0HKZGDXJK" data-store="amazon">Hardcover</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="pattern-band" aria-hidden="true"></div>
+
+    <!-- ============ CHILDREN & FAMILY ============ -->
+    <section id="family" class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <svg class="ornament" aria-hidden="true"><use href="#star8"/></svg>
+          <p class="eyebrow">Children &amp; Families</p>
+          <h2 class="section-title">Books to Share at Home</h2>
+          <p class="section-intro">Stories that teach good character, and a journal for passing your family's story down.</p>
+        </div>
+        <div class="book-grid">
+          <article class="book">
+            <div class="arch"><img src="https://i.imgur.com/ClgyvnN.png" alt="Cover of Amin, Layla, and the Water Cup" loading="lazy" width="400" height="600" data-title="Amin, Layla, and the Water Cup" data-author="J.A. Hauhio" /></div>
             <div class="book-body">
               <p class="genre">Children's Picture Book</p>
               <h3>Amin, Layla, and the Water Cup</h3>
               <p>A Muslim children's story about sharing and Sunnah.</p>
               <div class="buy-row">
-                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0F8X6ZSKS" data-store="amazon">Paperback</a>
                 <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
               </div>
             </div>
           </article>
 
-          <article class="book" data-category="family">
-            <img src="https://i.imgur.com/fB3rMBM.png" alt="Cover of Tell Me a Story of YOU" loading="lazy" width="400" height="600" />
+          <article class="book">
+            <div class="arch"><img src="../images/covers/amin-and-layla.jpg" alt="Cover of Amin &amp; Layla" loading="lazy" width="400" height="600" data-title="Amin &amp; Layla" data-author="J.A. Hauhio" /></div>
+            <div class="book-body">
+              <p class="genre">Children's Book</p>
+              <h3>Amin &amp; Layla</h3>
+              <!-- Add a one-line description here: <p>...</p> -->
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0HKZ5SRWT" data-store="amazon">Paperback</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book">
+            <div class="arch"><img src="../images/covers/marvelous-misadventures-of-amin-and-layla.jpg" alt="Cover of The Marvelous Misadventures of Amin &amp; Layla" loading="lazy" width="400" height="600" data-title="The Marvelous Misadventures of Amin &amp; Layla" data-author="J.A. Hauhio" /></div>
+            <div class="book-body">
+              <p class="genre">Children's Book</p>
+              <h3>The Marvelous Misadventures of Amin &amp; Layla</h3>
+              <!-- Add a one-line description here: <p>...</p> -->
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0FFHJLJQD" data-store="amazon">Hardcover</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book">
+            <div class="arch"><img src="../images/covers/mischief-and-manners.jpg" alt="Cover of Mischief &amp; Manners" loading="lazy" width="400" height="600" data-title="Mischief &amp; Manners" data-author="J.A. Hauhio" /></div>
+            <div class="book-body">
+              <p class="genre">Children's Book</p>
+              <h3>Mischief &amp; Manners</h3>
+              <!-- Add a one-line description here: <p>...</p> -->
+              <div class="buy-row">
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0FFB9DTNC" data-store="amazon">Hardcover</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book">
+            <div class="arch"><img src="https://i.imgur.com/fB3rMBM.png" alt="Cover of Tell Me a Story of YOU" loading="lazy" width="400" height="600" data-title="Tell Me a Story of YOU" data-author="J.A. Hauhio" /></div>
             <div class="book-body">
               <p class="genre">Guided Journal</p>
               <h3>Tell Me a Story of YOU</h3>
               <p>A guided journal for families and generations.</p>
               <div class="buy-row">
-                <a class="btn btn-primary btn-sm" href="#" data-store="amazon">Amazon</a>
+                <a class="btn btn-primary btn-sm" href="https://www.amazon.com/dp/B0FDH3CMVR" data-store="amazon">Paperback</a>
+                <a class="btn btn-secondary btn-sm" href="https://www.amazon.com/dp/B0FDFVVGVG" data-store="amazon">Hardcover</a>
                 <a class="btn btn-secondary btn-sm" href="#" data-store="direct">Buy Direct</a>
               </div>
             </div>
@@ -145,22 +261,25 @@
          Paste this list's MailerLite / Kit form URL into the form's action attribute. -->
     <section id="newsletter" class="section section-dark">
       <div class="wrap narrow center">
+        <svg class="ornament" aria-hidden="true"><use href="#star8"/></svg>
+        <p class="eyebrow">Reader List</p>
         <h2 class="section-title">Hear About New Books First</h2>
-        <p>Join the reader list for new release announcements and launch-week pricing. No spam. Unsubscribe anytime.</p>
+        <p>New release announcements and launch-week pricing. No spam. Unsubscribe anytime.</p>
         <form class="signup" action="" method="post" target="_blank" data-fallback-email="TheImmortalQuill@gmail.com">
           <label class="visually-hidden" for="signup-name">First name</label>
           <input id="signup-name" type="text" name="fields[name]" placeholder="First name" autocomplete="given-name" />
           <label class="visually-hidden" for="signup-email">Email address</label>
           <input id="signup-email" type="email" name="fields[email]" placeholder="Email address" autocomplete="email" required />
-          <button class="btn btn-primary" type="submit">Join the List</button>
+          <button class="btn btn-gold" type="submit">Join the List</button>
         </form>
         <p class="form-note" hidden></p>
       </div>
     </section>
 
     <!-- ============ CONTACT ============ -->
-    <section id="contact" class="section section-alt">
+    <section id="contact" class="section">
       <div class="wrap narrow center">
+        <p class="eyebrow">Get in Touch</p>
         <h2 class="section-title">Contact</h2>
         <p>For reader mail, schools, masjid and community events, and interviews:</p>
         <p class="contact-links">
@@ -172,7 +291,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>&copy; <span id="year">2026</span> All rights reserved.</p>
+      <p>&copy; <span id="year">2026</span> J.A. Hauhio · All rights reserved.</p>
     </div>
   </footer>
 
