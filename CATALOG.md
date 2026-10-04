@@ -17,12 +17,12 @@ Master list of published titles and their Amazon print links, compiled from KDP 
 | The Immortal Watcher | [B0FD7YVXDT](https://www.amazon.com/dp/B0FD7YVXDT) | [B0FBL91SBG](https://www.amazon.com/dp/B0FBL91SBG) | ? | ✔ Islamic |
 | Amin, Layla, and the Water Cup | [B0F8X6ZSKS](https://www.amazon.com/dp/B0F8X6ZSKS) | | Yes / Select | ✔ Islamic |
 | Tell Me a Story of YOU | [B0FDH3CMVR](https://www.amazon.com/dp/B0FDH3CMVR) | [B0FDFVVGVG](https://www.amazon.com/dp/B0FDFVVGVG) | ? | ✔ Islamic |
-| Healing in the Sunnah | [B0HLPTDR39](https://www.amazon.com/dp/B0HLPTDR39) | [B0HLPWQSQ2](https://www.amazon.com/dp/B0HLPWQSQ2) | Yes / Select | |
-| At the Prophet's Table | [B0HLPXQXQ5](https://www.amazon.com/dp/B0HLPXQXQ5) | [B0HLPNHK1H](https://www.amazon.com/dp/B0HLPNHK1H) | Yes / Select | |
-| The Prophetic Apothecary | [B0HKWT6285](https://www.amazon.com/dp/B0HKWT6285) | [B0HKZGDXJK](https://www.amazon.com/dp/B0HKZGDXJK) | Yes | |
-| Amin & Layla | [B0HKZ5SRWT](https://www.amazon.com/dp/B0HKZ5SRWT) | | Yes / Select | |
-| The Marvelous Misadventures of Amin & Layla | | [B0FFHJLJQD](https://www.amazon.com/dp/B0FFHJLJQD) | | |
-| Mischief & Manners | | [B0FFB9DTNC](https://www.amazon.com/dp/B0FFB9DTNC) | | |
+| Healing in the Sunnah | [B0HLPTDR39](https://www.amazon.com/dp/B0HLPTDR39) | [B0HLPWQSQ2](https://www.amazon.com/dp/B0HLPWQSQ2) | Yes / Select || ✔ Hauhio |
+| At the Prophet's Table | [B0HLPXQXQ5](https://www.amazon.com/dp/B0HLPXQXQ5) | [B0HLPNHK1H](https://www.amazon.com/dp/B0HLPNHK1H) | Yes / Select || ✔ Hauhio |
+| The Prophetic Apothecary | [B0HKWT6285](https://www.amazon.com/dp/B0HKWT6285) | [B0HKZGDXJK](https://www.amazon.com/dp/B0HKZGDXJK) | Yes || ✔ Hauhio |
+| Amin & Layla | [B0HKZ5SRWT](https://www.amazon.com/dp/B0HKZ5SRWT) | | Yes / Select || ✔ Hauhio |
+| The Marvelous Misadventures of Amin & Layla | | [B0FFHJLJQD](https://www.amazon.com/dp/B0FFHJLJQD) | || ✔ Hauhio |
+| Mischief & Manners | | [B0FFB9DTNC](https://www.amazon.com/dp/B0FFB9DTNC) | || ✔ Hauhio |
 | Where the Waves Break | | [B0FFZ98V8J](https://www.amazon.com/dp/B0FFZ98V8J) | | |
 | The Ghost of Ka'ena | | [B0FHDVT6N4](https://www.amazon.com/dp/B0FHDVT6N4) | | |
 | Still Water | [B0GSW6DTRL](https://www.amazon.com/dp/B0GSW6DTRL) | | Yes | |
