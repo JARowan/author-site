@@ -32,12 +32,12 @@ Master list of published titles and their Amazon print links, compiled from KDP 
 | The Occupation Papers | [B0HKF6CHR1](https://www.amazon.com/dp/B0HKF6CHR1) | | Yes || ✔ Hauhio |
 | Mission Not a Baby | [B0HKFDL68R](https://www.amazon.com/dp/B0HKFDL68R) | | Yes || ✔ Hauhio |
 | Logged Off | [B0HKCS5QTD](https://www.amazon.com/dp/B0HKCS5QTD) | | Yes / Select || ✔ Hauhio |
-| The Nezek Ratio | [B0HKCWMNTK](https://www.amazon.com/dp/B0HKCWMNTK) | | Yes / Select | |
-| The Cadastre of the Outlaws | [B0HKDB8GJ2](https://www.amazon.com/dp/B0HKDB8GJ2) | | Yes | |
-| The Silenced Corridor | [B0HK2ZF7VF](https://www.amazon.com/dp/B0HK2ZF7VF) | | Yes / Select | |
-| The Redacted Mandate | [B0HK3BP6BC](https://www.amazon.com/dp/B0HK3BP6BC) | | Yes / Select | |
-| The Leverage of Silence | [B0HK3CJ5NP](https://www.amazon.com/dp/B0HK3CJ5NP) | | Yes / Select | |
-| The Scheveningen Dockets | [B0HK4S3DVP](https://www.amazon.com/dp/B0HK4S3DVP) | | Yes / Select | |
+| The Nezek Ratio | [B0HKCWMNTK](https://www.amazon.com/dp/B0HKCWMNTK) | | Yes / Select || ✔ Hauhio |
+| The Cadastre of the Outlaws | [B0HKDB8GJ2](https://www.amazon.com/dp/B0HKDB8GJ2) | | Yes || ✔ Hauhio |
+| The Silenced Corridor | [B0HK2ZF7VF](https://www.amazon.com/dp/B0HK2ZF7VF) | | Yes / Select || ✔ Hauhio |
+| The Redacted Mandate | [B0HK3BP6BC](https://www.amazon.com/dp/B0HK3BP6BC) | | Yes / Select || ✔ Hauhio |
+| The Leverage of Silence | [B0HK3CJ5NP](https://www.amazon.com/dp/B0HK3CJ5NP) | | Yes / Select || ✔ Hauhio |
+| The Scheveningen Dockets | [B0HK4S3DVP](https://www.amazon.com/dp/B0HK4S3DVP) | | Yes / Select || ✔ Hauhio |
 | The Field Guide to Optimal Operational Efficiency | [B0FDVFPSYL](https://www.amazon.com/dp/B0FDVFPSYL) | | | |
 
 ## Pen names confirmed from source files
@@ -50,7 +50,7 @@ Master list of published titles and their Amazon print links, compiled from KDP 
 - **Harry J. A. Hauhio:** Still Choosing You (Canva cover). Listed on the Rowan site, like Still Water.
 - **J.A. Hauhio:** The Sovereign Signal (Canva cover, "A Procedural Thriller").
 - **Left off both sites:** The Field Guide (a policing satire credited to a fictional institute).
-- **Still unknown (not in Canva, Drive, or Gmail):** The Redacted Mandate, The Leverage of Silence, The Silenced Corridor, The Scheveningen Dockets, The Nezek Ratio, The Cadastre of the Outlaws.
+- **J.A. Hauhio (confirmed by the author):** The Redacted Mandate, The Leverage of Silence, The Silenced Corridor, The Scheveningen Dockets, The Nezek Ratio, The Cadastre of the Outlaws.
 
 ## Where the cover files are
 
